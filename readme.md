@@ -1,3 +1,3 @@
 # JDCapture Portfolio
 
-See Jesse's portfolio [here](https://github.com/Leokayasen/jdcapture-portfolio/index.html).
+See Jesse's portfolio [here](https://leokayasen.github.io/jdcapture-portfolio/).
