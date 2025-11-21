@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jdcap_ture Photography</title>
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.1.0/css/all.min.css">
+</head>
+<body>
+
+<div id="wrapper">
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="logo" href="#home">jdcap_ture</a>
+            <nav class="main-nav" aria-label="Main Nav">
+                <a href="#gallery">Portfolio</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <button class="menu-toggle" aria-expanded="false" aria-controls="main-nav"><i class="fa-solid fa-bars"></i></button>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-inner container">
+                <h1>Photography that tells your story</h1>
+                <p>Fine art, editorial and commercial photograhy</p>
+                <a class="btn" href="#gallery">View Portfolio</a>
+            </div>
+        </section>
+
+        <section id="gallery" class="container gallery-section">
+            <h2>Selected Works</h2>
+            <p class="muted">Click an image to view larger</p>
+            <div class="gallery-grid" id="galleryGrid">
+                <figure class="gallery-item">
+                    <img loading="lazy" src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80" alt="Mountain Landscape">
+                    <figcaption>Mountain Landscape</figcaption>
+                </figure>
+
+                <figure class="gallery-item">
+                    <img loading="lazy" src="https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80" alt="City Skyline at Night">
+                    <figcaption>City Skyline at Night</figcaption>
+                </figure>
+
+                <figure class="gallery-item">
+                    <img loading="lazy" src="https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=800&q=80" alt="Portrait of a Woman">
+                    <figcaption>Portrait a woman</figcaption>
+                </figure>
+
+            </div>
+        </section>
+
+        <section id="about" class="container about-section">
+            <div class="about-grid">
+                <div>
+                    <h2>About</h2>
+                    <p class="muted">I'm Jesse, a visual storyteller specialising in portrait and commercial photography. Available for editorial and commission work across Brighton, UK</p>
+                    <ul class="meta-list">
+                        <li><strong>Location:</strong> Brighton, UK</li>
+                        <li><strong>Email:</strong> <a href="mailto:jdcapture8@gmail.com">jdcapture8@gmail.com</a></li>
+                    </ul>
+                </div>
+                <div class="about-photo">
+                    <img loading="lazy" src="assets/img/profile.png" alt="Jesse Asare">
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="container services-section">
+            <h2>Services</h2>
+            <div class="services-grid">
+                <div class="card">
+                    <h3>Portrait Photography</h3>
+                    <p>Capturing the essence of individuals through creative and professional portrait sessions.</p>
+                </div>
+                <div class="card">
+                    <h3>Commercial Photography</h3>
+                    <p>Providing high-quality images for businesses, including product photography and corporate headshots.</p>
+                </div>
+                <div class="card">
+                    <h3>Event Photography</h3>
+                    <p>Documenting special events with a keen eye for detail and storytelling.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="container contact-section">
+            <h2>Contact</h2>
+            <form class="contact-form" novalidate>
+                <div class="form-grid">
+                    <label>
+                        <span>Name</span>
+                        <input type="text" name="name" placeholder="Your name">
+                    </label>
+                    <label>
+                        <span>Email</span>
+                        <input type="email" name="email" placeholder="Your email">
+                    </label>
+                    <label class="full">
+                        <span>Message</span>
+                        <textarea name="message" rows="5" placeholder="Tell me about your request"></textarea>
+                    </label>
+                </div>
+                <button type="submit" class="btn"><i class="fa-solid fa-check"></i> Send Message</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <small><span id="year"></span> BitWave Studios. All rights reserved.</small>
+            <nav class="footer-nav" aria-label="Footer Nav">
+                <a href="#gallery">Portfolio</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </footer>
+</div>
+
+<div id="lightbox" class="lightbox" aria-hidden="true" role="dialog" aria-label="Image Preview">
+    <button class="lightbox-close" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
+</div>
+
+<script src="assets/js/base.js"></script>
+</body>
+</html>
